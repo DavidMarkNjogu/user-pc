@@ -1,0 +1,22 @@
+# Ignore system files and directories
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore database file
+db.sqlite3
+
+# Ignore IDE specific files
+.idea/
+.vscode/
